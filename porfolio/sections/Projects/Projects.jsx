@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import pokeball from "../../assets/pokeball.png";
+import pokedex from "../../assets/pokedex.png";
 import filmnexus from "../../assets/filmnexus.png";
+import spaceinvader from "../../assets/spaceinvader.png";
 import ProjectCard from "../../common/ProjectsCard";
 
 function Projects() {
@@ -10,7 +11,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={pokeball}
+          src={pokedex}
           link="https://pokescroll.netlify.app/"
           h3="Pokescroll"
           p="Pokedex API App"
@@ -20,6 +21,12 @@ function Projects() {
           link="https://film-nexus.netlify.app/"
           h3="Film Nexus"
           p="Streaming App"
+        />
+        <ProjectCard
+          src={spaceinvader}
+          link="https://vxctor11.github.io/Space_Invaders_Game/"
+          h3="Space Invaders Game"
+          p="Mini Game"
         />
       </div>
     </section>
