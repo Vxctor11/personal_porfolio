@@ -16,7 +16,7 @@ function Hero() {
         />
         <div className={styles.info}>
           <h1>
-            Victor <br /> Ortiz
+            Victor M <br /> Ortiz Martinez
           </h1>
           <h2>Full Stack Developer</h2>
           <span>
