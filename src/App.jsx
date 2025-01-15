@@ -2,7 +2,7 @@ import "./App.css";
 import Hero from "../sections/Hero/Hero";
 import Projects from "../sections/Projects/Projects";
 import Skills from "../sections/Skills/Skills";
-import Contact from "../sections/Contact/Contact";
+// import Contact from "../sections/Contact/Contact";
 import Footer from "../sections/Footer/Footer";
 import About from "../sections/About/About";
 
@@ -13,7 +13,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );

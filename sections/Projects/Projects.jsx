@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import pokedex from "../../assets/pokedex.png";
 import filmnexus from "../../assets/filmnexus.png";
@@ -22,12 +21,12 @@ function Projects() {
           h3="Film Nexus"
           p="Streaming App"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={spaceinvader}
           link="https://vxctor11.github.io/Space_Invaders_Game/"
           h3="Space Invaders Game"
           p="Mini Game"
-        />
+        /> */}
       </div>
     </section>
   );

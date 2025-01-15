@@ -1,9 +1,8 @@
-import React from "react";
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/hero-img.png";
 import githubIcon from "../../assets/github.svg";
 import likedinIcon from "../../assets/linkedin.svg";
-import CV from "../../assets/VictorMOrtizResume.pdf";
+import CV from "../../assets/VictorMOrtizResume_.pdf";
 
 function Hero() {
   return (
