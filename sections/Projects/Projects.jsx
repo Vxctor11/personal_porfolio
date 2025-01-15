@@ -11,22 +11,22 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={pokedex}
-          link="https://pokescroll.netlify.app/"
+          link="https://pokescrollapp.netlify.app/"
           h3="Pokescroll"
           p="Pokedex API App"
         />
         <ProjectCard
           src={filmnexus}
-          link="https://film-nexus.netlify.app/"
+          link="https://filmnexus.netlify.app/"
           h3="Film Nexus"
           p="Streaming App"
         />
-        {/* <ProjectCard
+        <ProjectCard
           src={spaceinvader}
           link="https://vxctor11.github.io/Space_Invaders_Game/"
           h3="Space Invaders Game"
-          p="Mini Game"
-        /> */}
+          p="Mini Game (in the process of fixing it Scren size)"
+        />
       </div>
     </section>
   );
