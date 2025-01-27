@@ -5,13 +5,11 @@ function About() {
     <section id="about" className={styles.container}>
       <h1 className={styles.sectionTitle}>About Me</h1>
       <p className="info">
-        As a recent graduate in Computer Science, I bring a solid background in
-        full-stack development and a commitment to delivering high-quality
-        solutions. My experience spans across modern web technologies, and I am
-        driven by the opportunity to solve complex problems and contribute to
-        innovative projects. I am looking for a role where I can apply my
-        technical skills, collaborate with talented teams, and make a measurable
-        impact on the company’s growth and success.
+        With a solid foundation in Computer Science and a passion for leveraging
+        my skills to drive innovation, I aim to make a meaningful impact in the
+        tech industry. I am seeking a dynamic position where I can apply my
+        expertise, contribute to company success, and embrace new challenges to
+        fuel professional growth further.
       </p>
     </section>
   );
